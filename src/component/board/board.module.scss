@@ -1,0 +1,6 @@
+.board {
+    display: flex;
+    > *:not(:first-of-type) {
+      margin-left: 24px;
+    }
+  }
