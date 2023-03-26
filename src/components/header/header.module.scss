@@ -1,0 +1,28 @@
+.header {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #0067a3;
+  flex-shrink: 0;
+
+  h1 {
+    font-size: 28px;
+    line-height: 33px;
+    font-weight: 400;
+  }
+}
+
+
+@media (max-width: 790px) {
+  .header{
+    justify-content: flex-end;
+    background-color: transparent;
+    h1{
+      display: none;
+    }
+  }
+}
